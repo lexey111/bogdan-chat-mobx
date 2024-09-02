@@ -1,0 +1,16 @@
+.main-app-wait {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+
+.wait-container {
+    width: clamp(200px, 40vw, 500px);
+    padding: 32px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
